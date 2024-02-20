@@ -1,0 +1,94 @@
+body{
+    background:#e5e5e5;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+   
+background-color: white;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    border:25px solid #e5e5e5;
+    box-shadow:4px 4px 8px grey, -14px -6px 10px white;
+    box-shadow:6px 6px 8px gray,-6px -6px 8px white;
+    position:relative;
+}
+.circle{
+    background:black;
+    position: absolute;
+    top:52%;
+    left:50%;
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    z-index:9;
+}
+
+.sec{
+    transform-origin: bottom;
+    position: absolute;
+    top:10%;
+    left:51%;
+    width:6px;
+    height:110px;
+    background:blue;
+    border-radius:100% 100% 0 0;
+    z-index:3;
+}
+
+.min{
+    transform-origin: bottom;
+    position: absolute;
+    top:24%;
+    left:51%;
+    width:8px;
+    height:80px;
+    background:red;
+    border-radius:100% 100% 0 0;
+    z-index:2;
+}
+
+.hour{
+    transform-origin: bottom;
+    position: absolute;
+    top:30%;
+    left:52.5%;
+    width:10px;
+    height:60px;
+    background:green;
+    border-radius:100% 100% 0 0;
+    z-index:1;
+    
+}
+.twe{
+position: absolute;
+left:45%;
+font-weight: 700;
+font-size: 30px;
+}
+.three{
+position: absolute;
+left:47%;
+top:83%;
+font-weight: 700;
+font-size: 30px;
+}
+.six{
+position: absolute;
+left:92%;
+top:46%;
+font-weight: 700;
+font-size: 30px;
+}
+.nine{
+position: absolute;
+left:3%;
+top:45%;
+font-weight: 700;
+font-size: 30px;
+}
+
